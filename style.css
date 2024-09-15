@@ -11,3 +11,37 @@ body {
   background-position: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+nav {
+  background: rgb(35, 35, 35);
+  box-shadow: 1rem 1rem 0.5rem rgb(0 0 0 0.1);
+}
+
+nav > ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav li {
+  height: 50px;
+}
+
+nav a {
+  height: 100%;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  background: #3c3c3c;
+}
+
+nav li:first-child {
+    margin-right: auto;
+}
